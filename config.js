@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.email ="smilthwilliams24@gmail.com"
+global.location="osun, Nigeria."
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -24,9 +24,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://gi
 global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
 
 
-global.devs = "" // Developer Contact
+global.devs = "234 701 254 5240" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "234 701 254 5240";
 
 
 
@@ -37,7 +37,7 @@ global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not resp
 global.gdbye = process.env.GOODBYE || "true"; 
 global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
-global.warncount = process.env.WARN_COUNT || 3
+global.warncount = process.env.WARN_COUNT || 4
 global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "true", // disable bot in groups when public mode
 
@@ -56,7 +56,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "234 701 254 5240,234xxxxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -67,7 +67,7 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_06_03_06_01_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || ".", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
@@ -131,7 +131,7 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
 
 // ========================= [ Disables in V.1.2.8 ] ===============================\\  
   //style : process.env.STYLE || "2",  // put '1' & "2" here to check bot styles
-  //readmessage:process.env.READ_MESSAGE|| "false",
+  //readmessage:process.env.READ_MESSAGE|| "true",
   //warncount: process.env.WARN_COUNT || 3,
   //userImages:process.env.USER_IMAGES|| "text",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
   //disablepm: process.env.DISABLE_PM || "false",
